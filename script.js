@@ -1,3 +1,4 @@
+// Evento que simula o efeito de digitação no inicio da página.
 window.addEventListener ('load', function() {
     const texto = document.querySelector('.chamada-texto')
     const digita = "Ingressando no mundo da Tecnologia e realizando um sonho!"
