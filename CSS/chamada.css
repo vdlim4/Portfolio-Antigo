@@ -1,0 +1,72 @@
+/* Estilos da área inicial da página */
+.chamada {
+    background-image: url(../IMG/fundo-chamada.png);
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.37);
+}
+.chamada-titulo--principal {
+    color: #E5E2DD;
+    font-size: 3.5rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.chamada-texto {
+    color: #E5E2DD;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+/* Botao que volta para o topo da página */
+
+.volta-topo {
+    position: fixed;
+    background-color: #111111;
+    border-radius: 50%;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.363);
+    color: #E5E2DD;
+    font-size: 1.8rem;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+
+.volta-topo:hover {
+    box-shadow: 3px 8px 8px rgba(0, 0, 0, 0.199);
+}
+
+.volta-topo:active {
+    height: 55px;
+}
+
+.volta-topo i {
+    line-height: 50px;
+}
+
+/* Responsividade para telas menores */
+
+@media screen and (max-width: 900px) {
+    .chamada-titulo--principal {
+        padding-top: 6rem;;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .chamada-titulo--principal {
+        font-size: 3rem;;
+    }
+
+    .chamada-texto {
+        font-size: 1.8rem;
+    }
+}

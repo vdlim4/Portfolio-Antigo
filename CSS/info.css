@@ -1,0 +1,74 @@
+/* Estilos do quadro flutuante sobre as informações pessoais */
+
+.info {
+
+    display: flex;
+}
+.info-quadro {
+    background-color: #111111;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+    position: relative;
+    justify-content: center;
+    width: 95%;
+    height: 350px;
+    top: -10rem;
+}
+
+.foto-perfil {
+    box-shadow: 5px 5px 10px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.texto-info {
+    padding-left: 20px;
+    color: #E5E2DD;
+}
+
+.info-quadro {
+    align-items: center;
+    border: 1px solid;
+    display: flex;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+/* Responsividade para telas menores */
+
+@media screen and (max-width: 1024px) {
+    .container-conteudo{
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .info-quadro {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .foto-perfil {
+        width: 150px;
+    }
+    .texto-info {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container-conteudo{
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .foto-perfil {
+        width: 150px;
+    }
+    .texto-info {
+        font-size: 1rem;
+    }
+}

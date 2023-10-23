@@ -1,0 +1,13 @@
+/* Estilos relacionados ao rodape da página */
+
+.rodape {
+    text-align: center;
+    background-color: #272725;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.rodape-texto {
+    color: #E5E2DD;
+    font-size: 1.1rem;
+}
